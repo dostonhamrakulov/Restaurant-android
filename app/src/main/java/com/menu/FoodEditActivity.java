@@ -1,5 +1,7 @@
 package com.menu;
-
+/**
+ * Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+ */
 import android.content.SharedPreferences;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -72,7 +74,7 @@ public class FoodEditActivity extends AppCompatActivity {
                 String hemjeetext = hemjee.getText().toString();
 
                 foodAdapter.updateFood(new Food(nametext,unetext,turultext,hemjeetext,hemjeetext));
-                Snackbar.make(v, "Үг амжилттай засагдлаа...", Snackbar.LENGTH_LONG)
+                Snackbar.make(v, "The word govern ...", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
             }

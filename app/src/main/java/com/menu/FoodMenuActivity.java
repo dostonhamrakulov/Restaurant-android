@@ -18,7 +18,9 @@ import java.util.List;
 import com.menu.Database.FoodAdapter;
 import com.menu.Database.MyDBHelper;
 import com.menu.Model.Food;
-
+/**
+ * Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+ */
 
 @Deprecated
 public class FoodMenuActivity extends AppCompatActivity {
@@ -64,7 +66,7 @@ public class FoodMenuActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Object o = parent.getItemAtPosition(position);
                 final String foodName = o.toString();
-                Log.d("", "Дарагдсан лист дээрх үг : " + foodName);
+                Log.d("", "Words in the press : " + foodName);
                 editor.putString("SelectedFoodName", foodName);
                 editor.commit();
                 Intent intent = new Intent(FoodMenuActivity.this, FoodDetailActivity.class);

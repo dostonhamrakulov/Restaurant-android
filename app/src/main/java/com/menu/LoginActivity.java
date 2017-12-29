@@ -1,4 +1,7 @@
 package com.menu;
+/**
+ * Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+ */
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -132,16 +135,16 @@ public class LoginActivity extends ActionBarActivity {
     public void onBackPressed() {
         new AlertDialog.Builder(this)
                 .setIcon(R.drawable.exit)
-                .setTitle("Ресторан")
-                .setMessage("Та програмаас гарах уу?")
-                .setPositiveButton("Тийм", new DialogInterface.OnClickListener()
+                .setTitle("Restaurant")
+                .setMessage("Do you exit the program?")
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener()
                 {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         finish();
                     }
                 })
-                .setNegativeButton("Үгүй", null)
+                .setNegativeButton("No", null)
                 .show();
     }
 
@@ -172,7 +175,7 @@ public class LoginActivity extends ActionBarActivity {
         sharedPreferences = getSharedPreferences(PREFER_NAME, Context.MODE_PRIVATE);
         if (username.isEmpty() || password.length() < 3) {
             nameText.startAnimation(shake);
-            nameText.setError("хэрэглэгчийн нэр 3-аас багагүй тэмдэгт байна");
+            nameText.setError("Username is at least 3 characters");
             valid = false;
         } else {
             nameText.setError(null);
@@ -180,7 +183,7 @@ public class LoginActivity extends ActionBarActivity {
 
         if (password.isEmpty() || password.length() < 4 ) {
             passwordText.startAnimation(shake);
-            passwordText.setError("нууц үг 4-өөс олон тэмдэгт байна");
+            passwordText.setError("Password has more than 4 characters");
             valid = false;
         } else {
             passwordText.setError(null);
@@ -229,7 +232,7 @@ public class LoginActivity extends ActionBarActivity {
                 valid = false;
             }
         } else {
-            Toast.makeText(LoginActivity.this,"Хэрэглэгчийн нэр нууц үгээ оруулна уу",Toast.LENGTH_SHORT).show();
+            Toast.makeText(LoginActivity.this,"Please enter your username and password",Toast.LENGTH_SHORT).show();
             valid = false;
         }
         return valid;
