@@ -3,6 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
+    <!--
+Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+-->
+
     <ImageView
         android:id="@+id/photo"
         android:layout_width="wrap_content"

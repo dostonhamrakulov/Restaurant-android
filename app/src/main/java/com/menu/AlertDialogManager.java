@@ -16,7 +16,7 @@ public class AlertDialogManager {
         alertDialog.setMessage(message);
         if(status != null)
             alertDialog.setIcon((status) ? R.drawable.success : R.drawable.fail);
-        alertDialog.setButton("Тийм", new DialogInterface.OnClickListener() {
+        alertDialog.setButton("Yes", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
             }
         });

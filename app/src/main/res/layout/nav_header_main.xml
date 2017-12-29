@@ -8,6 +8,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:gravity="bottom">
+    <!--
+Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+-->
 
     <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"

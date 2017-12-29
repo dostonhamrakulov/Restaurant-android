@@ -7,6 +7,9 @@
         android:title="@string/action_share"
         app:showAsAction="always"
         app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+    <!--
+    Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+    -->
 
     <item
         android:id="@+id/action_settings"

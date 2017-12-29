@@ -4,4 +4,8 @@
     tools:context="com.menu.FoodEditActivity">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
+    <!--
+Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+-->
+
 </menu>

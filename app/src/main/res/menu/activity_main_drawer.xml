@@ -2,8 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item android:id="@+id/search"
-            android:title="Цэс харах" />
+            android:title="View Menu" />
         <item android:id="@+id/cook"
-            android:title="Хоол нэмэх" />
+            android:title="Add food" />
     </group>
+    <!--
+Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+-->
+
 </menu>

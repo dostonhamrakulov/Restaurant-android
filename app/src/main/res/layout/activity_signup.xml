@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+-->
+
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
@@ -22,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords"
-                android:hint="Хэрэглэгчийн нэр" />
+                android:hint="Username" />
         </android.support.design.widget.TextInputLayout>
 
         <!--  Email Label -->
@@ -35,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
-                android:hint="И-мэйл хаяг" />
+                android:hint="Email address" />
         </android.support.design.widget.TextInputLayout>
 
         <!-- Password Label -->
@@ -48,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:hint="Нууц үг"/>
+                android:hint="Password"/>
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -60,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:hint="Нууц үгээ дахин оруул"/>
+                android:hint="Re-enter password"/>
         </android.support.design.widget.TextInputLayout>
 
         <!-- Signup Button -->
@@ -71,13 +75,13 @@
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="Бүртгүүлэх"/>
+            android:text="Register"/>
 
         <TextView android:id="@+id/linkLogin"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
-            android:text="Хэрэв та бүртгэлтэй бол энд дарна уу?"
+            android:text="If you have an account, click here"
             android:gravity="center"
             android:textSize="16dip"/>
     </LinearLayout>

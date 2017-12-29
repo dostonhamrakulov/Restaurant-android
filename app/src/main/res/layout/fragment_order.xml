@@ -10,7 +10,10 @@
         android:id="@+id/fragment_item_ordered_list_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1" /><!--
+Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+-->
+
 
     <TextView
         android:id="@+id/sub_total_text_view"

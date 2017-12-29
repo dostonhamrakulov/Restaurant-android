@@ -5,6 +5,9 @@
     android:layout_height="match_parent"
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:orientation="vertical">
+    <!--
+Created by Doston Hamrakulov doston.hamrakulov@gmail.com on 5/10/2017.
+-->
 
     <TextView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_marginTop="10dp"
